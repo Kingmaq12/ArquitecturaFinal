@@ -38,21 +38,21 @@ function inisiarSesion(){
             {
                 var rta = ajax.responseText;
                 if (rta.indexOf("S") > 0) {
-                    window.location.href = "index2.jsp";
+                    window.location.href = "index.jsp";
                 } else {
                     document.getElementById("campo").innerHTML = "Error al iniciar Sesion, revise correo o contraseña.";
-                    $("#registrar")[0].reset();
+                    $("#registrar1")[0].reset();
                 }
             } else
             {
 
                 var rta = ajax.responseText;
                 if (rta.indexOf("S") > 0) {
-                    window.location.href = "index2.jsp";
+                    window.location.href = "index.jsp";
                 } else {
 
                     document.getElementById("campo").innerHTML = "Error al iniciar Sesion, revise correo o contraseña.";
-                    $("#registrar")[0].reset();
+                    $("#registrar1")[0].reset();
                 }
             }
         } else
@@ -113,7 +113,7 @@ function registroCliente(){
 function registroEmpresa(){
         
     ajax = nuevoAjax();
-    parametros = "nombreEmprsa=" + document.getElementById("nombreEmpresa").value + "&nit=" + document.getElementById("nit").value + "&correoEmpresa=" + document.getElementById("correoEmpresa").value+ "&sector=" + document.getElementById("sector").value + "&contrasenia=" + document.getElementById("contrasenia").value;
+    parametros = "nombreEmpresa=" + document.getElementById("nombreEmpresa").value + "&nit=" + document.getElementById("nit").value + "&correoEmpresa=" + document.getElementById("correoEmpresa").value+ "&sector=" + document.getElementById("sector").value + "&contrasenia=" + document.getElementById("contrasenia").value;
     url = "procesar/registroEmpresa.jsp";
     ajax.open("POST", url, true);
     ajax.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
@@ -171,7 +171,7 @@ function recuperarContrasenia(){
             {
                 var rta = ajax.responseText;
                 if (rta.indexOf("S") > 0) {
-                    window.location.href = "index2.jsp";
+                    window.location.href = "index.jsp";
                 } else {
                     document.getElementById("campo").innerHTML = "Error al iniciar Sesion, revise correo o contraseña.";
                     $("#registrar")[0].reset();
@@ -181,7 +181,7 @@ function recuperarContrasenia(){
 
                 var rta = ajax.responseText;
                 if (rta.indexOf("S") > 0) {
-                    window.location.href = "index2.jsp";
+                    window.location.href = "index.jsp";
                 } else {
 
                     document.getElementById("campo").innerHTML = "Error al iniciar Sesion, revise correo o contraseña.";
@@ -193,8 +193,10 @@ function recuperarContrasenia(){
             document.getElementById(campo).value = "Procesando registro";
         }
     }
-    
-    function registroPublicacion(){
+}
+  
+  
+function registroPublicacion(){
         
     ajax = nuevoAjax();
     parametros = "sector=" + document.getElementById("sector").value + "&titulo=" + document.getElementById("titulo").value + "&descripcion=" + document.getElementById("descripcion").value + "&nombre=" + document.getElementById("nombre").value + "&telefono=" + document.getElementById("telefono").value + "&correo=" + document.getElementById("correo").value;
@@ -235,7 +237,5 @@ function recuperarContrasenia(){
             document.getElementById(campo).value = "Procesando registro";
         }
     }
-    
-}
     
 }

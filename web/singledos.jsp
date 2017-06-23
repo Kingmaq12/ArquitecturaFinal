@@ -20,7 +20,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Resale_v2 a Classified ads Category Flat Bootstrap Responsive Website Template | Single :: w3layouts</title>
+<title>Pingou</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -107,21 +107,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
-						<a href="mobiles.html"><i class="fa fa-fw fa-mobile"></i><span>Mobiles</span></a>
-						<a href="electronics-appliances.html"><i class="fa fa-fw fa-laptop"></i><span>Electronics and appliances</span></a>
-						<a href="cars.html"><i class="fa fa-fw fa-car"></i><span>Cars</span></a>
-						<a href="bikes.html"><i class="fa fa-fw fa-motorcycle"></i><span>Bikes</span></a>
-						<a href="furnitures.html"><i class="fa fa-fw fa-wheelchair"></i><span>Furnitures</span></a>
-						<a href="pets.html"><i class="fa fa-fw fa-paw"></i><span>Pets</span></a>
-						<a href="books-sports-hobbies.html"><i class="fa fa-fw fa-book"></i><span>Books, Sports & Hobbies</span></a>
-						<a href="fashion.html"><i class="fa fa-fw fa-asterisk"></i><span>Fashion</span></a>
-						<a href="kids.html"><i class="fa fa-fw fa-asterisk"></i><span>Kids</span></a>
-						<a href="services.html"><i class="fa fa-fw fa-shield"></i><span>Services</span></a>
-						<a href="jobs.html"><i class="fa fa-fw fa-at"></i><span>Jobs</span></a>
-						<a href="real-estate.html"><i class="fa fa-fw fa-home"></i><span>Real Estate</span></a>
+						<a href=""><i class="fa fa-fw fa-mobile"></i><span>Mobiles</span></a>
+						<a href=""><i class="fa fa-fw fa-laptop"></i><span>Electronics and appliances</span></a>
+						<a href=""><i class="fa fa-fw fa-car"></i><span>Cars</span></a>
+						<a href=""><i class="fa fa-fw fa-motorcycle"></i><span>Bikes</span></a>
+						<a href=""><i class="fa fa-fw fa-wheelchair"></i><span>Furnitures</span></a>
+						<a href=""><i class="fa fa-fw fa-paw"></i><span>Pets</span></a>
+						<a href=""><i class="fa fa-fw fa-book"></i><span>Books, Sports & Hobbies</span></a>
+						<a href=""><i class="fa fa-fw fa-asterisk"></i><span>Fashion</span></a>
+						<a href=""><i class="fa fa-fw fa-asterisk"></i><span>Kids</span></a>
+						<a href=""><i class="fa fa-fw fa-shield"></i><span>Services</span></a>
+						<a href=""><i class="fa fa-fw fa-at"></i><span>Jobs</span></a>
+						<a href=""><i class="fa fa-fw fa-home"></i><span>Real Estate</span></a>
 					</div>
 				</nav>
-				<button class="close-button" id="close-button">Close Menu</button>
+				<button class="close-button" id="close-button">Cerrar Menu</button>
 			</div>
 			<button class="menu-button" id="open-button"> </button>
 			</div>
@@ -131,16 +131,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- header -->
 	<header>
 		<div class="w3ls-header"><!--header-one--> 
-			<div class="w3ls-header-left">
-				<p><a href="mobileapp.html"><i class="fa fa-download" aria-hidden="true"></i>Download Mobile App </a></p>
-			</div>
+			
 			<div class="w3ls-header-right">
 				<ul>
 					<li class="dropdown head-dpdn">
-						<a href="signin.html" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Sign In</a>
-					</li>
-					<li class="dropdown head-dpdn">
-						<a href="help.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Help</a>
+						<a href="singin.jsp" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Inicia Sesion</a>
 					</li>
 					
 				</ul>
@@ -153,6 +148,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="logo">
 					<h1><a href="index.jsp"><span>Pin</span>gou</a></h1>
 				</div>
+				<div class="agileits_search">
+					
+				<a class="post-w3layouts-ad" href="post-ad.jsp">Publica tu anuncio Gratis</a>
+                                
+                                
+				</div>	
+				<div class="clearfix"></div>
 			</div>
 		</div>
 	</header>
@@ -240,48 +242,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="container">
 					<div class="wthree-foo-grids">
 						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Who We Are</h4>
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-							<p>The point of using Lorem Ipsum is that it has a more-or-less normal letters, as opposed to using 'Content here.</p>
+							<h4 class="footer-head">Quienes somos</h4>
+							<p>Estudiantes de Ingenieria de Sistemas 9no semestre, excepto Camilo, el es de 8vo semestro.</p>
+							<p>Examen de Arquitectura de Software</p>
 						</div>
+						
+						
 						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Help</h4>
-							<ul>
-								<li><a href="howitworks.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>How it Works</a></li>						
-								<li><a href="sitemap.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Sitemap</a></li>
-								<li><a href="faq.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Faq</a></li>
-								<li><a href="feedback.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Feedback</a></li>
-								<li><a href="contact.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contact</a></li>
-								<li><a href="typography.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Short codes</a></li>
-								<li><a href="icons.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Icons Page</a></li>
-							</ul>
-						</div>
-						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Information</h4>
-							<ul>
-								<li><a href="regions.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Locations Map</a></li>	
-								<li><a href="terms.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Terms of Use</a></li>
-								<li><a href="popular-search.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Popular searches</a></li>	
-								<li><a href="privacy.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Privacy Policy</a></li>	
-							</ul>
-						</div>
-						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Contact Us</h4>
-							<span class="hq">Our headquarters</span>
+							<h4 class="footer-head">Contacte nos</h4>
+							<span class="hq">Nuestras Oficinas</span>
 							<address>
 								<ul class="location">
 									<li><span class="glyphicon glyphicon-map-marker"></span></li>
-									<li>CENTER FOR FINANCIAL ASSISTANCE TO DEPOSED NIGERIAN ROYALTY</li>
+									<li>Casita de Cada quien o las salas de la Universidad, a veces el pasillo.</li>
 								</ul>	
 								<div class="clearfix"> </div>
 								<ul class="location">
 									<li><span class="glyphicon glyphicon-earphone"></span></li>
-									<li>+0 561 111 235</li>
+									<li>55555riente</li>
 								</ul>	
 								<div class="clearfix"> </div>
 								<ul class="location">
 									<li><span class="glyphicon glyphicon-envelope"></span></li>
-									<li><a href="mailto:info@example.com">mail@example.com</a></li>
+									<li><a href="">Innosoftware@gmail.com</a></li>
 								</ul>						
 							</address>
 						</div>
@@ -292,7 +275,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agileits-footer-bottom text-center">
 			<div class="container">
 				<div class="w3-footer-logo">
-					<h1><a href="index.html"><span>Re</span>sale-v2</a></h1>
+					<h1><a href="index.html"><span>Pin</span>gou</a></h1>
 				</div>
 				<div class="w3-footer-social-icons">
 					<ul>
@@ -304,7 +287,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="copyrights">
-					<p> © 2016 Resale. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+					<p> © 2017 .Derechos Reservados|Diseñado por <a href="">Innosoftware</a></p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

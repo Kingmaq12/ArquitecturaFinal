@@ -6,7 +6,6 @@
 package ufps.ArqFinal.negocio;
 
 import java.util.ArrayList;
-import ufps.ArqFinal.dao.anuncioDAO;
 import ufps.ArqFinal.dao.usuarioDAO;
 import ufps.ArqFinal.dto.anuncioDTO;
 import ufps.ArqFinal.dto.clienteDTO;
@@ -46,6 +45,8 @@ public class Negocio {
     }
     
     public boolean registrarEmpresa(String nombreEmpresa, String nit, String correoEmpresa, String sector, String contrasenia){
+        
+        System.out.println(nombreEmpresa+","+nit+","+correoEmpresa+","+sector+","+contrasenia);
         
         usuarioDTO dto = new usuarioDTO(correoEmpresa, contrasenia);
         empresaDTO empre = new empresaDTO(nombreEmpresa, nit, sector);

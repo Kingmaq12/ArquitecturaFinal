@@ -6,7 +6,6 @@
 package ufps.ArqFinal.dto;
 
 import java.util.ArrayList;
-import ufps.ArqFinal.dao.anuncioDAO;
 
 /**
  *
