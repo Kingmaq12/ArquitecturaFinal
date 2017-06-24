@@ -125,7 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3ls-header-right">
 				<ul>
 					<li class="dropdown head-dpdn">
-						<a href="signin.jsp" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesion</a>
+						<a href="singin.jsp" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesion</a>
 					</li>
 					
 					<li class="dropdown head-dpdn">

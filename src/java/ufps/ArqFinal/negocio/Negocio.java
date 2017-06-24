@@ -29,6 +29,8 @@ public class Negocio {
     
     public boolean iniciarSesion(String correo,String contrasenia){
         
+        System.out.println(correo+","+contrasenia);
+        
         usuarioDTO dto = new usuarioDTO(correo, contrasenia);
         
         return usuDao.iniciarSesion(dto);

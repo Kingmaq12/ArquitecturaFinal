@@ -18,7 +18,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <%
 if(session.getAttribute("negocio")==null){
-    
+    System.out.println("crea un nuevo negocio");
     Negocio nego = new Negocio();
     
     session.setAttribute("negocio", nego);

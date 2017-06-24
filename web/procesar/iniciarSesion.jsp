@@ -15,7 +15,8 @@
     
     String correo = request.getParameter("correo");
     String contrasenia = request.getParameter("contrasenia");
-        
+    
+    System.out.println(correo+","+contrasenia);        
     Negocio nego = (Negocio)session.getAttribute("negocio");
     
     String rta ="";

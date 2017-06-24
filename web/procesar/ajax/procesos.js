@@ -109,7 +109,6 @@ function registroCliente(){
 }
 
 
-
 function registroEmpresa(){
         
     ajax = nuevoAjax();
@@ -213,9 +212,10 @@ function registroPublicacion(){
                 var rta = ajax.responseText;
                 if (rta.indexOf("S") > 0) {
                     
+                    document.getElementById("campo").innerHTML = "Registro exitosamente.";
                     $("#registrar")[0].reset();
                 } else {
-
+                    
                     document.getElementById("campo").innerHTML = "Error al registrar.";
                     $("#registrar")[0].reset();
                 }
@@ -225,6 +225,7 @@ function registroPublicacion(){
                 var rta = ajax.responseText;
                 if (rta.indexOf("S") > 0) {
                     
+                    document.getElementById("campo").innerHTML = "Registro exitosamente.";
                     $("#registrar")[0].reset();
                 } else {
 

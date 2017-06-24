@@ -146,7 +146,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div id="agileits-sign-in-page" class="sign-in-wrapper">
 			<div class="agileinfo_signin">
 			<h3>Iniciar Sesion</h3>
-				<form name="registrar1" id="registrar1" method="POST" action="javascript:iniciarSesion()">
+				<form name="registrar" id="registrar" method="POST" action="javascript:iniciarSesion()">
 					<input type="Email" name="correo" id="correo" placeholder="Correo" required=""> 
 					<input type="password" name="contrasenia" id="contrasenia" placeholder="Contraseña" required=""> 
 					<input type="submit" value="Iniciar Sesion">
@@ -157,33 +157,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="forgot-grid">
 						<label class="checkbox"><input type="checkbox" name="checkbox">Recuerdame</label>
 						<div class="forgot">
-							<a href="#" data-toggle="modal" data-target="#myModal2">Olvidaste tu Contraseña?</a>
+							<a href="recuperarContraseña.jsp">Olvidaste tu Contraseña?</a>
 						</div>
-						<!-- Modal -->
-						<div class="modal fade" id="myModal2" role="dialog">
-							<div class="modal-dialog">
-							<!-- Modal content -->
-                                                        
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h3 class="w3ls-password">Recuperar Contraseña</h3>		
-										<p class="get-pw">Ingresa tu correo registrado con una nueva contraseña para hacer el cambio.</p>
-										<form name="registrar" id="registrar" method="POST" action="javascript:recuperarContrasenia()">
-											<input type="text" class="user" name="correo" id="correo" placeholder="Correo" required="">
-											<input type="text" class="user" name="contrasenia" id="contrasenia" placeholder="Contraseña Nueva" required="">
-											<input type="text" class="user" name="contraseniados" id="contraseniados" placeholder="Confirmar Contraseña Nueva" required="">
-											<input type="submit" value="Recuperar">
-                                                                                        <br>
-                                                                                        <br>
-                                                                                        <label id="campo"></label>
-										</form>
-									</div>
-								</div>
-							</div>
-							</div>
-						</div>
+						
 						<div class="clearfix"> </div>
 					</div>
 				
@@ -250,6 +226,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		</footer>
         <!--footer section end-->
+        <script src="procesar/ajax/procesos.js"></script>
 </body>
 		<!-- Navigation-JavaScript -->
 			<script src="js/classie.js"></script>
@@ -283,7 +260,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			</script>
                         
-                        <script src="procesar/ajax/procesos.js"></script>
+                        
 			<!-- start-smoth-scrolling -->
 		<!-- //here ends scrolling icon -->
 </html>
